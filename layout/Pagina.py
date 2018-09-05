@@ -1,7 +1,7 @@
 # coding: utf-8
 #from semanal.layout.Layout import *
 #from app.config import Config
-from Layout import *
+from .Layout import *
 import plotly.graph_objs as go
 import base64
 
