@@ -4,7 +4,7 @@ from layout.Pagina import *
 from config import Config
 # Dashboard
 app = dash.Dash(__name__)
-
+server = app.server
 # Load informacoes
 config = Config
 
