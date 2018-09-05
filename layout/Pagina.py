@@ -1,8 +1,10 @@
 # coding: utf-8
-from semanal.layout.Layout import *
+#from semanal.layout.Layout import *
+from .Layout import *
 import plotly.graph_objs as go
 import base64
-from semanal.config import Config
+#from semanal.config import Config
+from .config import Config
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import openpyxl as pyxl
