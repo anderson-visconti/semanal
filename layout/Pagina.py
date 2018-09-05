@@ -310,7 +310,7 @@ class Hidro(Secao):
 
 class Arm(Secao):
     def cria(self):
-        self.get_rdh()
+        #self.get_rdh()
         self.get_data()
 
         texto = list()
