@@ -1,1 +1,1 @@
-web: gunicorn semanal:server
+web: gunicorn app:server
