@@ -1,7 +1,7 @@
 # coding: utf-8
 import dash
-from semanal.layout.Pagina import *
-from semanal.config import Config
+from app.layout.Pagina import *
+from app.config import Config
 
 # Dashboard
 app = dash.Dash('semanal')
