@@ -1,1 +1,1 @@
-web: gunicorn bbce:server
+web: gunicorn app:server

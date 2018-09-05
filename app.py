@@ -4,7 +4,11 @@ from layout.Pagina import *
 from config import Config
 # Dashboard
 app = dash.Dash(__name__)
+<<<<<<< HEAD
 server = app.server
+=======
+#
+>>>>>>> 6ab329daa2645093ece30ac91b62055f8a9ff1c3
 # Load informacoes
 config = Config
 
