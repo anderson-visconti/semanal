@@ -1,14 +1,12 @@
 # coding: utf-8
 import dash
-from layout.Pagina import *
-from config import Config
+from semanal.layout.Pagina import *
+from semanal.config import Config
+
 # Dashboard
-app = dash.Dash(__name__)
-<<<<<<< HEAD
+app = dash.Dash('semanal')
 server = app.server
-=======
-#
->>>>>>> 6ab329daa2645093ece30ac91b62055f8a9ff1c3
+
 # Load informacoes
 config = Config
 
@@ -52,5 +50,4 @@ def display_page(pathname):
 
 
 if __name__ == '__main__':
-
     app.run_server(debug=True)
