@@ -591,14 +591,14 @@ class Forward(Secao):
         trace_diff = go.Bar(
             x=df_diferencas.index,
             y=df_diferencas['diff'],
-            text=df_diferencas['diff'],
+            #text=df_diferencas['diff'],
             yaxis='y2',
             name='Variação',
             textfont=dict(
                 family='sans serif',
                 size=8,
             ),
-            hoverinfo='text',
+            hoverinfo='y',
             hoverlabel=dict(
                 font=dict(
                     size=10
@@ -629,6 +629,7 @@ class Forward(Secao):
                     size=8
                 ),
                 showgrid=True,
+                hoverformat='.2f',
                 tickformat='3.2f',
                 dtick=50,
                 tickfont=dict(
