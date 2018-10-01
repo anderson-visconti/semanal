@@ -27,8 +27,10 @@ class Config(object):
         }
 
         self.config_meteo = {
-            'path_chuva_acum': r'http://img0.cptec.inpe.br/~rclima/historicos/mensal/brasil/{:}/brchuvat{:%m%y}.gif',
-            'path_chuva_anom': r'http://img0.cptec.inpe.br/~rclima/historicos/mensal/brasil/{:}/abrchuvat{:%m%y}.gif',
+            #'path_chuva_acum': r'http://img0.cptec.inpe.br/~rclima/historicos/mensal/brasil/{:}/brchuvat{:%m%y}.gif',
+            'path_chuva_acum': r'http://img0.cptec.inpe.br/~rclima/historicos/mensal/brasil/set/brchuvat0918.gif',
+            #'path_chuva_anom': r'http://img0.cptec.inpe.br/~rclima/historicos/mensal/brasil/{:}/abrchuvat{:%m%y}.gif',
+            'path_chuva_anom': r'http://img0.cptec.inpe.br/~rclima/historicos/mensal/brasil/set/abrchuvat0918.gif',
             'texto': open(
                 file=os.path.join(os.path.dirname(__file__), 'layout', 'data', 'meteo.txt'),
                 mode='r',
